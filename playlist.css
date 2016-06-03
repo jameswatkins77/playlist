@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Avenir;
+    src: url('fonts/AvenirNextLTPro-Regular.otf');
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background-color: #9B9B8C;
+  width: 100vw;
+  height: 20%;
+  font-size: 40px;
+  font-family: Avenir;
+}
+#pHeader{
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 4%;
+  color: white;
+}
+container{
+  height: 76%;
+  width: 100%;
+}
+#holdsAlbums{
+  overflow: scroll;
+  width: 100vw;
+  height: 17vh;
+}
+#album_a{
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  background-size: contain;
+  display: inline-block;
+  margin-left: 17%;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+#album_a img{
+  height: 15vh;
+  width: 15vh;
+}
+#album_b{
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 3%;
+}
+#album_b img{
+  height: 15vh;
+  width: 15vh;
+}
+#album_c{
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 3%;
+}
+#album_c img{
+  height: 15vh;
+  width: 15vh;
+}
+#album_d{
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 3%;
+}
+#album_d img{
+  height: 15vh;
+  width: 15vh;
+}
+#album_e{
+  height: 15vh;
+  width: 15vh;
+  position: relative;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 3%;
+}
+#album_e img{
+  height: 15vh;
+  width: 15vh;
+}
+#listAlbums {
+  margin-top: 2%;
+  margin-left: 9%;
+  margin-bottom: 1%;
+  background-color: #EEEEEE;
+  border: 2px solid black;
+  height: 30%;
+  width: 80%;
+  font-family: Avenir;
+  font-size: 20px;
+  padding: 5px;
+}
+#clear{
+  position: relative;;
+  width: 15%;
+  min-width: 15%;
+  font-family: Avenir;
+  height: 5%;
+  background-color: #353526;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+#submit{
+  position: relative;;
+  width: 15%;
+  min-width: 15%;
+  font-family: Avenir;
+  height: 5%;
+  background-color: #353526;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-bottom: 10%;
+}
+footer{
+  background-color: #686859;
+  color: white;
+  clear: both;
+  height: 1%;
+  font-size: 20;
+  font-family: Avenir;
+  padding: 2%;
+}
