@@ -10,6 +10,7 @@ var dAlbum = document.getElementById('album_d');
 var eAlbum = document.getElementById('album_e');
 var albumList = document.getElementById('listAlbums');
 var clearIt = document.getElementById('clear');
+var submitted = document.getElementById('submit');
 
 
 var addAlbums = function(){
@@ -36,7 +37,7 @@ var addAlbums = function(){
   request.send();
 }
 
-aAlbum.addEventListener("click", function(){
+aAlbum.addEventListener("click", function(event){
   var newAlbumListed = document.createElement("p");
   newAlbumListed.innerHTML = arr[0].artist +": "+ arr[0].title;
   albumList.appendChild(newAlbumListed);
@@ -64,4 +65,10 @@ eAlbum.addEventListener("click", function(){
 
 clearIt.addEventListener("click", function(){
   albumList.innerHTML = "";
+})
+
+submitted.addEventListener("click", function(){
+  alert("you can NOT pass!")
+  request.open("POST", 'https://lit-fortress-6467.herokuapp.com/post');
+  request.send();
 })
