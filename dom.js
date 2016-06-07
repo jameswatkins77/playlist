@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function(event){
   event.preventDefault();
-  addAlbums();
+  addSplashAlbums();
 })
 
 var firstAlbum = document.getElementById('album_1');
 var secondAlbum = document.getElementById('album_2');
 var thirdAlbum = document.getElementById('album_3');
 
-var addAlbums = function(){
+var addSplashAlbums = function(){
   var request = new XMLHttpRequest();
   request.onreadystatechange = function(){
     if (request.readyState === 4) {
